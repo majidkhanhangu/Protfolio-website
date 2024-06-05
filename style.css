@@ -238,6 +238,7 @@ margin-bottom: 25px;
 transform: translateY(-8px);
 cursor: pointer;
 }
+/*protfolio section  */
 .portfolio-content{
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(350px, auto));
@@ -301,6 +302,7 @@ transform: scale(1.1);
 .row:hover .layer{
 height: 100%;
 }
+/* contact section  */
 .contact{
 background: var(--second-bg-color);
 display: grid;
@@ -384,6 +386,7 @@ transition: all .45s ease;
 transform: scale(1.1);
 cursor: pointer;
 }
+/* end section  */
 .end{
 padding: 20px 15%;
 display: flex;
@@ -404,7 +407,7 @@ font-size: 15px;
 color: var(--text-color);
 background:#05b4ff;
 }
-
+/* Responsive with media query */
 @media (max-width: 1480px) {
 header {
 padding: 12px 2.5%;
